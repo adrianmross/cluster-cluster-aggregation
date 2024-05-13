@@ -1,4 +1,6 @@
-# cluster-cluster-aggregation
+# Cluster-Cluster-Aggregation
+
+A Streamlit dashboard of CRM Project 13.18 Cluster Cluster Aggregation parts A through C. The application simulates cluster aggregation dynamically and allows users to interactively control the simulation. The simulation provides a visual output of the lattice, which makes it easier to understand the aggregation process.
 
 ## Running Locally
 
