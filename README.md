@@ -5,7 +5,7 @@
 ### Clone locally
 
 ```bash
-git clone https://github.com/adrianmross/cluster-cluster-aggregation/
+git clone git@github.com:adrianmross/cluster-cluster-aggregation.git
 cd cluster-cluster-aggregation
 ```
 
