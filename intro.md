@@ -1,6 +1,6 @@
 ### Problem Description from Project 13.18
 
-The problem described in your document, Project 13.18, focuses on determining the fractal dimension of percolation clusters. Here's a simplified explanation of the problem context and the analytical approach one might take to solve it:
+The problem described in Project 13.18, focuses on determining the fractal dimension of percolation clusters. Here's a simplified explanation of the problem context and the analytical approach one might take to solve it:
 
 #### Context and Problem
 
@@ -20,8 +20,8 @@ The problem described in your document, Project 13.18, focuses on determining th
 
 4. **Average Over Multiple Simulations**: Due to variations in individual simulations, it's advisable to average the results over several clusters to get a reliable estimate of $D$.
 
-### Simplified Explanation to a Non-Specialist
+### Simplified Explanation Anecdote
 
-"Imagine we have a grid where each point can either be empty or filled. If we start filling these points randomly, clusters of filled points start forming. At a certain point, a giant cluster forms that spans across the grid. This cluster often looks like a complex pattern that repeats itself at different scales—much like a broccoli where each branch looks like a smaller version of the whole.
+Imagine we have a grid where each point can either be empty or filled. If we start filling these points randomly, clusters of filled points start forming. At a certain point, a giant cluster forms that spans across the grid. This cluster often looks like a complex pattern that repeats itself at different scales—much like a broccoli where each branch looks like a smaller version of the whole.
 
-We're interested in understanding how 'thick' this cluster is, which we describe using something called its 'fractal dimension.' To find this, we look at small sections of the cluster and count how many points are filled as we gradually look at bigger and bigger sections. By comparing how the number of filled points grows as we expand our view, we can calculate this fractal dimension. This tells us about the nature of the cluster and has implications in physics and material sciences, particularly in understanding materials that are porous or have irregular structures."
+We're interested in understanding how 'thick' this cluster is, which we describe using something called its 'fractal dimension.' To find this, we look at small sections of the cluster and count how many points are filled as we gradually look at bigger and bigger sections. By comparing how the number of filled points grows as we expand our view, we can calculate this fractal dimension. This tells us about the nature of the cluster and has implications in physics and material sciences, particularly in understanding materials that are porous or have irregular structures.
