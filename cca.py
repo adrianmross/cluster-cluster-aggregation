@@ -135,12 +135,13 @@ class CCA:
         ax.set_aspect('equal')
         plt.xlim(0, self.L)
         plt.ylim(0, self.L)
-        fig.canvas.draw()  # This might be needed if you use the figure's image directly
+        fig.canvas.draw()
         image = np.frombuffer(fig.canvas.tostring_rgb(), dtype='uint8')
         image = image.reshape(fig.canvas.get_width_height()[::-1] + (3,))
         plt.close(fig)  # Close the figure to free memory
         return image
 
+# TESTING
 # import cProfile
 # import pstats
 
